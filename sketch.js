@@ -65,8 +65,8 @@ function setup() {
   breakButton = createButton("BOTÃO");
   breakButton.position(width - 200, height / 2 - 50);
   breakButton.class("breakbutton");
-  //breakButton.mouseClicked(handleButtonPress);
-  breakButton.mousePressed(handleButtonPress);
+  breakButton.mouseClicked(handleButtonPress);
+  //breakButton.mousePressed(handleButtonPress);
   //breakButton.mouse(handleButtonPress);
   //breakButton.mousePressed(ButtonPress);
 }
@@ -93,13 +93,13 @@ function handleButtonPress() {
     break();
   }, 1500);*/
 
-  /*jointLink.dettach();
-  setTimeout(() => {
-    bridge.break();
-  }, 5);*/
+  // jointLink.dettach();
+  // setTimeout(() => {
+  //   bridge.break();
+  // }, 5);
 
-  /*jointLink.dettach();
+  jointLink.dettach();
   setTimeout(() => {
     bridge.break();
-  }, 1500);*/
+  }, 1500);
 }
